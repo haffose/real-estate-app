@@ -1,11 +1,11 @@
 version: '3.3'
 services:
   snake:
-    image: '"haffose/real-estate-app"'
+    image: "haffose/real-estate-app"
     environment:
-      - "PORT:3000"
+      - "PORT:5000"
     ports:
-      - "80:3000"
+      - "80:5000"
     volumes:
       - ./:/app
       
